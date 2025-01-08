@@ -2,6 +2,7 @@ import tkinter as tk
 
 from RequestorAgent import RequestorAgent
 from ResponderAgent import ResponderAgent
+from log_aux import Logs
 
 
 class GUI:
@@ -51,7 +52,9 @@ class GUI:
             e.g. "Ah I see. You found an apple in the file. Thanks for the information."
         :return:
         """
-        self.rich_text.insert(tk.END, f"\n\n ------Conversation {self.convo_index}-----\n")
+
+        head = f"------Conversation {self.convo_index}-----"
+        self.rich_text.insert(tk.END, head + "\n")
 
         query = self.requestor.go_ahead(self.convo_index)
         self.rich_text.insert(tk.END, f"Requestor query: {query}\n")
@@ -64,6 +67,9 @@ class GUI:
 
         req_ack = self.requestor.acknowledge(ack)
         self.rich_text.insert(tk.END, f"Requestor Acknowledgement: {req_ack}\n")
+
+        batch = [query, response, ack, req_ack]
+        Logs.log(batch, head)
 
         self.requestor.initialized = False
         self.responder.initialized = False

@@ -10,6 +10,10 @@ api_key = 'AIzaSyDw8UetLAzcVE4o9olvekJwwmWKB6hGwVI'  # I'm not gonna bother hidi
 
 os.environ['GOOGLE_API_KEY'] = api_key
 
+from log_aux import Logs
+
+Logs.create_session()
+
 # requestor = RequestorAgent()
 # responder = ResponderAgent()
 #

@@ -11,6 +11,9 @@
 ## Project Overview
 
 This project implements a conversation between two AI agents, the Requestor and the Responder, using a simple GUI. The agents communicate by making and responding to requests, which are processed using internal tools.
+The requestor is given a pool of requests to choose from, and the responder is given a pool of responses to choose from.
+The responder then executes the evaluated prompt (internal tools) and returns the result to the requestor.
+
 
 ## Project Structure
 
