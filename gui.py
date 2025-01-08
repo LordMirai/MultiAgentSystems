@@ -1,5 +1,4 @@
 import tkinter as tk
-from time import sleep
 
 turn_order = [0, 1, 2, 3, 4]
 current_turn = 0  # 0 is the human's turn
