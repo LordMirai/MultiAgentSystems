@@ -1,0 +1,5 @@
+google-generativeai
+Faker~=33.3.0
+
+future~=1.0.0
+google~=3.0.0

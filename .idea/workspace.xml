@@ -4,40 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f437d2fd-6e82-4156-893d-80255ef231da" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RequestorAgent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResponderAgent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleLLMAgent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/alpha.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/beta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/chi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/delta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/epsilon.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/eta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/gamma.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/iota.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/kappa.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/lambda.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/mu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/nu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/omega.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/omicron.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/phi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/pi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/psi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/rho.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/sigma.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/tau.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/theta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/upsilon.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/xi.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/files/zeta.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f437d2fd-6e82-4156-893d-80255ef231da" name="Changes" comment="Input files, Requestor, Responder, logic and tools">
+      <change afterPath="$PROJECT_DIR$/auxiliaries.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_files/subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_files/window.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RequestorAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/RequestorAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ResponderAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/ResponderAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleLLMAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleLLMAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/beta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/beta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/epsilon.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/epsilon.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/gamma.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/gamma.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/lambda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/lambda.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/tau.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/tau.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_files/our.mp3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +40,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2rLgjTVXG3py8Tmg9BQrZNwATqs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -70,6 +59,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.SimpleLLMAgent.executor": "Run",
     "Python.aux.executor": "Run",
+    "Python.auxiliaries.executor": "Run",
+    "Python.driver.executor": "Run",
     "Python.main.executor": "Run",
     "Python.tools.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,6 +71,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -90,7 +82,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="driver" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MultiAgentSystems" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,7 +96,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\pilot\Documents\python projects\MultiAgentSystems\driver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736343903678</updated>
-      <workItem from="1736343905028" duration="10438000" />
+      <workItem from="1736343905028" duration="11004000" />
+      <workItem from="1736355771490" duration="4059000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -140,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736344272913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Input files, Requestor, Responder, logic and tools">
+      <option name="closed" value="true" />
+      <created>1736355283751</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736355283751</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,12 +150,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Input files, Requestor, Responder, logic and tools" />
+    <option name="LAST_COMMIT_MESSAGE" value="Input files, Requestor, Responder, logic and tools" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MultiAgentSystems$main.coverage" NAME="main Coverage Results" MODIFIED="1736355099341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentSystems$auxiliaries.coverage" NAME="auxiliaries Coverage Results" MODIFIED="1736357107552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentSystems$main.coverage" NAME="driver Coverage Results" MODIFIED="1736355702746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentSystems$SimpleLLMAgent.coverage" NAME="SimpleLLMAgent Coverage Results" MODIFIED="1736351423640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentSystems$driver.coverage" NAME="driver Coverage Results" MODIFIED="1736359809419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MultiAgentSystems$aux.coverage" NAME="aux Coverage Results" MODIFIED="1736351692306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MultiAgentSystems$tools.coverage" NAME="tools Coverage Results" MODIFIED="1736346472178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MultiAgentSystems$tools.coverage" NAME="tools Coverage Results" MODIFIED="1736357105857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
